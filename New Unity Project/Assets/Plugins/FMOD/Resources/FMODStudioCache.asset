@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6034587986841064428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: F:\Storage\CasualGameProduction\RailRoadSurgeon\CasualGameProduction\FMOD\railRoadSurgeon\Build\Desktop\Master.strings.bank
+  SubDir: 
+  lastModified: 637059981585933690
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 778
+  Exists: 1
+--- !u!114 &-4559558595247539497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: F:\Storage\CasualGameProduction\RailRoadSurgeon\CasualGameProduction\FMOD\railRoadSurgeon\Build\Desktop\Master.bank
+  SubDir: 
+  lastModified: 637059981585913673
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1000
+  Exists: 1
+--- !u!114 &-3611473472233859455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  guid: 228b4e8f8fe2e64aa61929636d7d9ec8
+  Banks:
+  - {fileID: 6585137344597926}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 54857
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -6034587986841064428}
+  - {fileID: -4559558595247539497}
+  - {fileID: 6585137344597926}
+  EditorEvents:
+  - {fileID: -3611473472233859455}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -4559558595247539497}
+  StringsBanks:
+  - {fileID: -6034587986841064428}
+  stringsBankWriteTime: 637059981585933690
+  cacheVersion: 3
+--- !u!114 &6585137344597926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: F:\Storage\CasualGameProduction\RailRoadSurgeon\CasualGameProduction\FMOD\railRoadSurgeon\Build\Desktop\Music.bank
+  SubDir: 
+  lastModified: 637059981586213948
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 802080
+  Exists: 1
