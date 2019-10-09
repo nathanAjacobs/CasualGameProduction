@@ -14,7 +14,7 @@ public class TrackColliderTrigger : MonoBehaviour
     {
         if (collider.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            Debug.Log("Yoooo");
+            //Debug.Log("Yoooo");
 
             if(index == 0)
             {
@@ -32,7 +32,7 @@ public class TrackColliderTrigger : MonoBehaviour
 
             //temp.transform.position = GetComponentInChildren<Transform>().position;
 
-            Debug.Log(GetComponentInChildren<Transform>().gameObject);
+            //Debug.Log(GetComponentInChildren<Transform>().gameObject);
         }
     }
 }

@@ -5,10 +5,12 @@ using UnityEngine;
 public class DespawnScript : MonoBehaviour
 {
     private float timer;
+    private float speedMultiplier;
     // Start is called before the first frame update
     void Awake()
     {
         timer = 0f;
+        speedMultiplier = TrainMovement.speedOfTrain;
     }
 
     // Update is called once per frame
@@ -16,7 +18,7 @@ public class DespawnScript : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer >= 10f)
+        if(timer >= 25f/speedMultiplier)
         {
             GameObject.Destroy(this.gameObject);
         }
